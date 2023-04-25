@@ -1,0 +1,126 @@
+body{
+  background-color:purple;
+}
+.background{
+  width:100%;
+  height:610px;
+  background-image:linear-gradient(60deg,lightgreen,lightgreen 50%,orange );
+  border-radius:10px;
+}
+.glass{
+  top:0px;
+  position:absolute;
+  right:0px;
+  overflow:hidden;
+  width:100%;
+  height:100%;
+}
+.glass ui{
+  position: absolute;
+  background:rgba(255,255,255,0.15);
+  border:1px solid rgba(255,255,255,0.2);
+  border-radius:5px;
+  animation:run 5s linear infinite;
+}
+
+.glass ui:nth-child(1){
+  position:absolute;
+  width:60px;
+  height: 60px;
+  animation-delay: 8s;
+  animation-duration:40s;
+  top:650px;
+  left:50px;
+}
+.glass ui:nth-child(2){
+  position:absolute;
+  width:50px;
+  height:50px;
+  animation-delay: 0s;
+  animation-duration: 30s;
+  top:650px;
+  left:200px;
+}
+.glass ui:nth-child(3){
+  position:absolute;
+  width:47px;
+  height:47px;
+  animation-delay: 1s;
+  animation-duration: 40s;
+  top:650px;
+  left:300px;
+}
+.glass ui:nth-child(4){
+  position:absolute;
+  width:45px;
+  height:45px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+  top:650px;
+  left:100px;
+}
+  
+.glass ui:nth-child(5){
+  position:absolute;
+  width:50px;
+  height:50px;
+  animation-delay: 0.5s;
+  animation-duration: 50s;
+  top:650px;
+  left:50px;
+}
+.glass ui:nth-child(6){
+  position:absolute;
+  width:30px;
+  height:30px;
+  animation-delay: 5s;
+  animation-duration: 30s;
+  top:700px;
+  left:20px;
+}
+.glass ui:nth-child(7){
+  position:absolute;
+  width:65px;
+  height:65px;
+  animation-delay: 10s;
+  animation-duration: 40s;
+}
+.glass ui:nth-child(8){
+  position:absolute;
+  width:40px;
+  height:40px;
+  animation-delay: 5s;
+  animation-duration: 50s;
+  top:700px;
+  left:180px;
+}
+.glass ui:nth-child(9){
+  position:absolute;
+  width:55px;
+  height:55px;
+  animation-delay: 2s;
+  animation-duration: 60s;
+  top:700px;
+  left:90px;
+}
+.glass ui:nth-child(10){
+  position:absolute;
+  width:40px;
+  height:40px;
+  animation-delay: 8s;
+  animation-duration: 55s;
+  top:700px;
+  left:300px;
+}
+@keyframes run{
+  50%{
+    transform:translateY(-730px) rotate(700deg);
+    border-radius:10px;
+  }
+  100%{
+    transform:translateY(-100px);
+    transform:rotate(360deg);
+    border-radius:12px;
+  }
+  
+}
