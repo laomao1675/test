@@ -8,3 +8,4 @@
 # [Login2.html](https://laomao1104.github.io/test/login2.html)
 # [glass/index.html](https://laomao1104.github.io/test/glass/index.html)
 # [404/index.html](https://laomao1104.github.io/test/404/index.html)
+[Erudatest.html](https://laomao1104.github.io/test/Erudatest.html
