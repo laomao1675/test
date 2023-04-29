@@ -9,3 +9,5 @@
 # [glass/index.html](https://laomao1104.github.io/test/glass/index.html)
 # [404/index.html](https://laomao1104.github.io/test/404/index.html)
 # [404/index.html](https://laomao1104.github.io/test/404/index.html)
+
+# [genarator/index.html](https://laomao1104.github.io/test/genarator/index.html)
