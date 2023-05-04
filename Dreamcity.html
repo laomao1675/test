@@ -44,9 +44,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="assets/css/main.css" media>
+    <link rel="stylesheet" href="https://laomao1104.github.io/assets/css/main.css" media>
     <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" />
+        <link rel="stylesheet" href="https://laomao1104.github.io/assets/css/noscript.css" />
     </noscript>
 
     <!-- og -->
@@ -141,7 +141,7 @@
             <div class="content">
                 <div class="inner">
                     <h1>老猫的网站</h1>
-                    <h3>Minecraft 命令創作</h3>
+                    <h3> <span id="texts">Minecraft 命令創作<span></h3>
                     <a target="_blank" href="https://sites.google.com/view/laomao" class="button primary">回到旧网站</a>
 
 
@@ -318,7 +318,15 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="https://apis.google.com/js/platform.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
+        
+        Let typingText = new typed ("#texts", {
+          strings : ["Minecraft命令创作","迷你创作","Minecraft游戏创作"],
+          loop : true,
+          typespeed :190,  
+        })
+        
         function showalert() {
             alert("老猫\n活動籌備中。敬請期待！");
         }
