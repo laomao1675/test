@@ -1,0 +1,35 @@
+{
+
+ "format_version": 2,
+
+ "header": {
+
+   "description": "edit",
+
+   "name": "hidden furtures",
+
+   "uuid":"e121e9ed-0069-4d43-8ae4-fc28451791a8",
+
+   "version": [1, 0, 0],
+
+   "min_engine_version": [1, 16, 0]
+
+  },
+
+ "modules": [
+
+   {
+
+     "description": "Add-On!",
+
+     "type": "resources",
+
+     "uuid": "05b62ca3-d88f-4f16-bd06-32637ff1b0e2",
+
+     "version": [1, 0, 0]
+
+   }
+
+ ]
+
+}
