@@ -1,0 +1,15 @@
+{
+   "namespace": "general_section",
+   
+   "max_framerate_slider@settings_common.option_slider": {
+      "modifications": [
+         {
+            "array_name": "ignored",
+            "operation": "remove",
+            "where": {
+               "ignored": "($is_publish)"
+            }
+         }
+      ]
+   }
+}

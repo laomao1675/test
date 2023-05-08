@@ -1,0 +1,15 @@
+{
+   "namespace": "world_section",
+   
+   "export_button@settings_common.action_button": {
+      "modifications": [
+         {
+            "array_name": "ignored",
+            "operation": "remove",
+            "where": {
+               "ignored": "(($pocket_edition or $export_disabled or not $file_picking_supported) and not $education_edition)"
+            }
+         }
+      ]
+   }
+}
