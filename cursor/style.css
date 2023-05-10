@@ -7,11 +7,19 @@
   }
 body
 {
+<<<<<<< HEAD
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ min-height: 100vh;
+  background: #000;   
+=======
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background: #000;   
+>>>>>>> 4f28ad5990a24767f97339f667fb9fb37da24aca
  }
 ul li
 {
@@ -19,6 +27,16 @@ ul li
 }
 ul li a
 {
+<<<<<<< HEAD
+  position: relative;
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 2em;
+  left: ; etter-spacing: 0.1em;
+ text-transform: uppercase;
+ text-decoration: none;
+ color: #fff
+=======
   position: relative;
   display: inline-block;
   margin: 10px 0;
@@ -27,4 +45,14 @@ ul li a
   text-transform: uppercase;
   text-decoration: none;
   color: #fff
+>>>>>>> 4f28ad5990a24767f97339f667fb9fb37da24aca
+}
+.cursor
+{
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  pointer-events: none;
 }
