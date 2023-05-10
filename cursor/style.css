@@ -5,15 +5,26 @@
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
   }
-
 body
-   
- {
+{
 display: flex;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
 background: #000;   
  }
-
 ul li
+{
+list-style: none;
+}
+ul li a
+{
+position: relative;
+display: inline-block;
+margin: 10px 0;
+font-size: 2em;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: none;
+color: #fff
+}
