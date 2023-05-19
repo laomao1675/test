@@ -11,4 +11,4 @@
 # [404/index.html](https://laomao1104.github.io/test/404/index.html)
 
 # [genarator/index.html](https://laomao1104.github.io/test/genarator/index.html)
-# [web](https://laomao1104.github.io/test/web/index.html)
+# [web](https://laomao1104.github.io/test/Web/index.html)
