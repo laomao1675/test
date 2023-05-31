@@ -7,19 +7,16 @@
   }
 body
 {
-<<<<<<< HEAD
   display: flex;
   justify-content: center;
   align-items: center;
  min-height: 100vh;
   background: #000;   
-=======
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #000;   
->>>>>>> 4f28ad5990a24767f97339f667fb9fb37da24aca
+  background: #000; 
  }
 ul li
 {
@@ -27,7 +24,6 @@ ul li
 }
 ul li a
 {
-<<<<<<< HEAD
   position: relative;
   display: inline-block;
   margin: 10px 0;
@@ -36,7 +32,6 @@ ul li a
  text-transform: uppercase;
  text-decoration: none;
  color: #fff
-=======
   position: relative;
   display: inline-block;
   margin: 10px 0;
@@ -45,7 +40,6 @@ ul li a
   text-transform: uppercase;
   text-decoration: none;
   color: #fff
->>>>>>> 4f28ad5990a24767f97339f667fb9fb37da24aca
 }
 .cursor
 {
