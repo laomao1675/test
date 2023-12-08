@@ -2,4 +2,4 @@
 https://laomao1104.github.io/test
 
 
-[EDIT MAIN PAGE](https://github.com/laomao1104/test/INDEX.md)
+[EDIT MAIN PAGE](https://github.com/Laomao1104/test/blob/main/INDEX.md)
