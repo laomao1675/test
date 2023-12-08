@@ -17,5 +17,5 @@
 
 # [webplay.html](https://laomao1104.github.io/test/webplay.html)
 
-[GITHUB](https://github.com/laomao104)
-[REPO](https://github.com/laomao104/test)
+[GITHUB](https://github.com/laomao1104)
+[REPO](https://github.com/laomao1104/test)
