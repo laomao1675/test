@@ -16,3 +16,6 @@
 # [login-withgoogle.html](https://laomao1104.github.io/test/login-withgoogle.html)
 
 # [webplay.html](https://laomao1104.github.io/test/webplay.html)
+
+[GITHUB](https://github.com/laomao104)
+[REPO](https://github.com/laomao104/test)
