@@ -17,8 +17,7 @@
 
 # [webplay.html](https://laomao1104.github.io/test/webplay.html)
 
-#[Vdo]
-(laomao1104.github.io/test/若能闪烁-Goose hous.mp4)
+# [Vdo](https://laomao1104.github.io/test/若能闪烁-Goose hous.mp4/)
 
 [GITHUB](https://github.com/laomao1104)
 
