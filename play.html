@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="refresh" content="0;url=/play/">
-    <title>Redirecting to /play/</title>
+    <title>Redirecting to /play</title>
+    <script>
+        window.onload = function() {
+            // 使用 HTML5 History API 修改地址栏
+            window.history.pushState({}, "", "/play");
+        }
+    </script>
     <style>
         body {
             font-family: 'Arial', sans-serif;
