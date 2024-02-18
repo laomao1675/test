@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0;url=/play/">
+    <title>Redirecting to /pla2y</title>
+    <script>
+        window.onload = function() {
+            // 获取当前页面 URL
+            var currentUrl = window.location.href;
+
+            // 检查是否包含 "/play.html"
+            if (currentUrl.includes("/play.html")) {
+                // 替换 "/play2.html" 为 "/play2"
+                var newUrl = currentUrl.replace("/play2.html", "/play2")
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 5%;
+            margin: 0;
+        }
+        header {
+            background-color: #3498db;
+            padding: 1%;
+            color: white;
+        }
+        section {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>This is a simple website example.</p>
+    </section>
+
+    <section>
+        <h2>Redirect</h2>
+        <p>If you are not redirected, <a href="/play/">click here</a>.</p>
+    </section>
+
+    <footer>
+        <p>Thank you for visiting!</p>
+    </footer>
+</body>
+</html>
