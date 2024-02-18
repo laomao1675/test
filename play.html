@@ -6,8 +6,17 @@
     <title>Redirecting to /play</title>
     <script>
         window.onload = function() {
-            // 使用 HTML5 History API 修改地址栏
-            window.history.pushState({}, "", "/play");
+            // 获取当前页面 URL
+            var currentUrl = window.location.href;
+
+            // 检查是否包含 "/play.html"
+            if (currentUrl.includes("/play.html")) {
+                // 替换 "/play.html" 为 "/play"
+                var newUrl = currentUrl.replace("/play.html", "/play");
+
+                // 使用 window.location.replace 实现重定向
+                window.location.replace(newUrl);
+            }
         }
     </script>
     <style>
